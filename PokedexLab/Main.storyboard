@@ -35,7 +35,7 @@
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="feedCell" id="fia-uh-rlF" customClass="FeedCollectionViewCell" customModule="PokedexLab" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="101" height="95"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="101" height="95"/>
                                             <autoresizingMask key="autoresizingMask"/>
@@ -45,13 +45,13 @@
                                                 </imageView>
                                             </subviews>
                                         </view>
-                                        <color key="backgroundColor" red="0.19944546510794578" green="0.3363984676554046" blue="0.58286405456852797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstItem="ehi-iq-t4X" firstAttribute="leading" secondItem="fia-uh-rlF" secondAttribute="leadingMargin" id="8Vb-Ah-May"/>
-                                            <constraint firstItem="ehi-iq-t4X" firstAttribute="top" secondItem="fia-uh-rlF" secondAttribute="topMargin" constant="-4" id="DS7-ap-nHz"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="ehi-iq-t4X" secondAttribute="trailing" constant="4" id="EPz-98-Dbi"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="ehi-iq-t4X" secondAttribute="bottom" constant="3" id="Kgd-In-s1T"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="ehi-iq-t4X" secondAttribute="bottom" constant="3" id="ZaK-q7-OoC"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="ehi-iq-t4X" secondAttribute="trailing" constant="4" id="ZxK-kf-494"/>
+                                            <constraint firstItem="ehi-iq-t4X" firstAttribute="top" secondItem="fia-uh-rlF" secondAttribute="topMargin" constant="-4" id="nBT-UE-0IN"/>
+                                            <constraint firstItem="ehi-iq-t4X" firstAttribute="leading" secondItem="fia-uh-rlF" secondAttribute="leadingMargin" id="nDs-wJ-Ndl"/>
                                         </constraints>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                         <size key="customSize" width="101" height="95"/>
                                         <connections>
                                             <outlet property="pokemonImage" destination="ehi-iq-t4X" id="KHQ-g8-383"/>
