@@ -45,7 +45,7 @@
                                                 </imageView>
                                             </subviews>
                                         </view>
-                                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.19944546510794578" green="0.3363984676554046" blue="0.58286405456852797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="ehi-iq-t4X" firstAttribute="leading" secondItem="fia-uh-rlF" secondAttribute="leadingMargin" id="8Vb-Ah-May"/>
                                             <constraint firstItem="ehi-iq-t4X" firstAttribute="top" secondItem="fia-uh-rlF" secondAttribute="topMargin" constant="-4" id="DS7-ap-nHz"/>
